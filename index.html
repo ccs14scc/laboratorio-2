@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1 2.0</title>
+    <style>
+    body {
+        background-color: #ccc;
+    }
+    .encabezado {
+        border: 2px solid #000;
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        margin-top: -5px;     
+    }
+    .negrita {
+        font-weight: bold;      
+    }
+    h1 {
+        text-align: center;
+    }
+    a {
+        color: rgb(108, 0, 170);
+    }
+    .piedepagina {
+        border: 2px solid #000;
+        width: 100%;
+        table-layout: fixed;
+        text-align: center;
+        margin-top: 70px; 
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+    .left, .right {
+        flex: 1; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        padding: 1px;
+        margin-top: -500px; 
+    }
+    .content {
+        text-align: center;
+    }
+    .imgfinal {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 20px 0;
+        margin-top: -28%;
+    }
+    #p1, #p2 {
+        color: black;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <table class="encabezado">
+            <td>
+                <img src="./assets/img/logo_cft.PNG" alt="Error_imagen...">
+            </td>
+            <td class="negrita">Inicio</td>
+            <td>Quienes somos</td>
+            <td>Carreras</td>
+            <td>Vinculacion</td>
+            <td>Adminision</td>
+        </table>
+        <h1>Carreras</h1>
+        <div class="container">
+            <div class="left">
+                <div class="content">
+                    <img src="./assets/img/area_academica.PNG" alt="Error_imagen...">
+                    <p id="p1">Área académica de Educacion y Humanidades</p>
+                    <p >
+                        <a href="https://cftestatalaricayparinacota.cl/tecnico-de-nivel-superior-en-educacion-especial/">Técnico de Nivel Superior en Educación Especíal</a>
+                    </p>
+                    <p>
+                        <a href="https://cftestatalaricayparinacota.cl/tecnico-de-nivel-superior-en-educacion-parvularia-y-primer-segundo-ano-de-educacion-basica-2/">Técnico de Nivel Superior en Educación Parvularia y Primer - Segundo año de Educación Básica</a>
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <img src="./assets/img/area_industrial.PNG" alt="Error_imagen...">
+                    <p id="p2">Área Académica de Ingeniería e Industrias</p>
+                    <p>
+                        <a href="https://cftestatalaricayparinacota.cl/tecnico-de-nivel-superior-en-informatica-y-aplicaciones-tecnologicas/">Técnico de Nivel Superior en Informática y Aplicaciones Tecnológicas</a>
+                    </p>
+                    <p>
+                        <a href="https://cftestatalaricayparinacota.cl/tecnico-de-nivel-superior-en-fabricacion-y-montaje-de-estructuras-metalicas/">Técnico de Nivel Superior en Fabricacion y Montaje de Estructuras Metálicas</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="imgfinal">
+            <img src="./assets/img/matricula.PNG" alt="Error_imagen...">
+        </div>
+        <h1>Tabla de Estudiantes</h1>
+        <table class="piedepagina">
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>asignatura</td>
+            <tr>
+                <td>Yamil</td>
+                <td>Riquelme</td>
+                <td>Videojuegos</td>
+            </tr>
+            <tr>
+                <td>Nicolas</td>
+                <td>Nancuante</td>
+                <td>Videojuegos</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
